@@ -48,10 +48,12 @@
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
+          {!! menu('Majka') !!}
         </div>
       </div>
     </nav>
-    
+
+
 
     @yield('content')
 

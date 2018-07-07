@@ -2,6 +2,10 @@
 
 @section('content')
 
+  @foreach ($posts as $post)
+      <p>{{$post->title}}</p>
+  @endforeach
+<!-- https://devdojo.com/blog/tutorials/working-with-voyager-on-the-front-end -->
   <!-- Header -->
   <header class="masthead bg-primary text-white text-center">
     <div class="container">
