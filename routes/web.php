@@ -20,6 +20,10 @@ Route::get('/', [
     'as' => 'layouts.index'
 ]);
 
+Route::get('/about', [
+    'uses' => 'IndexController@about',
+    'as' => 'layouts.page'
+]);
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
