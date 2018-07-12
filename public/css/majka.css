@@ -1,0 +1,32 @@
+.top-info{
+  margin-top: 120px;
+}
+
+
+.owl-item img {
+	width: 100%;
+	height: auto;
+}
+
+.owl-controls {
+	text-align: center;
+}
+.owl-controls .owl-page {
+    display: inline-block;
+}
+.owl-controls .owl-page span {
+    background-color: #333;
+    -webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    width: 12px;
+	filter: Alpha(Opacity=500);/*IE7 fix*/
+	opacity: 0.5;
+}
+.owl-controls .owl-page.active span, .owl-controls .owl-page:hover span {
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}

@@ -21,7 +21,7 @@ Route::get('/', [
 ]);
 
 Route::get('/about', [
-    'uses' => 'IndexController@about',
+    'uses' => 'IndexController@page',
     'as' => 'layouts.page'
 ]);
 

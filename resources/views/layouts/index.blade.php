@@ -2,10 +2,29 @@
 
 @section('content')
 
-  @foreach ($posts as $post)
+  {{-- @foreach ($posts as $post)
       <p>{{$post->title}}</p>
-  @endforeach
+  @endforeach --}}
 <!-- https://devdojo.com/blog/tutorials/working-with-voyager-on-the-front-end -->
+
+
+  {{-- <div class="container">
+    <div class="row">
+      <div id="owl-demo" class="owl-carouse owl-theme">
+        <div class="item col-12"><img src="http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage3.jpg" alt="The Last of us"></div>
+        <div class="item col-12"><img src="http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage1.jpg" alt="GTA V"></div>
+      </div>
+    </div>
+  </div> --}}
+
+  <div class="slider">
+      <div><img src="http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage1.jpg" /></div>
+      <div><img src="http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage2.jpg" /></div>
+      <div><img src="http://www.landmarkmlp.com/js-plugin/owl.carousel/demos/assets/fullimage3.jpg" /></div>
+  </div>
+
+
+{{--
   <!-- Header -->
   <header class="masthead bg-primary text-white text-center">
     <div class="container">
@@ -350,6 +369,23 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
+
+@endsection
+
+@section('script')
+  <!-- OWL carusel scripts -->
+  <script src="/js/owl.carousel.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function() {
+          $(".slider").owlCarousel({
+        singleItem:true,
+        navigation: false,
+        autoplay: 1000,
+        items: 1
+        });
+      });
+  </script>
 
 @endsection
