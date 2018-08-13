@@ -20,14 +20,14 @@
 
   <div class="row majka-box majka-box-bg justify-content-md-center py-5">
 
-      <div class="col col-lg-4 text-center pt-lg-5 majka-box-item">
+      <div class="col col-lg-3 text-center pt-lg-5 majka-box-item">
         <p class="majka-box-big-title">Witam w Szkole Rodzenia Majka. Zapraszam do zapoznania się z ofertą.</p>
       </div>
 
-      <div class="col-lg-auto majka-box-item">
+      <div class="col-lg-3 px-5 majka-box-item">
         <h6>Wypożycz TENS</h6>
         <img alt="logo" src="{{ asset('images/tens.png') }}">
-        <p class="">Istnieje możliwość wypożyczenia TENS-u na czas porodu.</p>
+        <p>Istnieje możliwość wypożyczenia TENS-u na czas porodu.</p>
         <a href="#">Zobacz więcej</a>
       </div>
 
@@ -37,6 +37,41 @@
         <p>Zapraszam na profil na Facebooku</p>
         <a href="#">Facebook</a>
       </div>
+  </div>
+
+  <div class="row majka-l-box">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-3 m-5">
+        <h4>Dalczego warto?</h4>
+        <img class="img-fluid" src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/01/2.jpg">
+      </div>
+
+      <div class="col-lg-3 m-5">
+        <h4>Oferta</h4>
+        <img class="img-fluid" src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/01/6-1.jpg">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-3 m-5">
+        <h4>Usługi położnicze</h4>
+        <img class="img-fluid" src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/01/9.jpg">
+      </div>
+
+      <div class="col-lg-3 m-5">
+        <h4>Warsztaty</h4>
+        <img class="img-fluid" src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/01/1.jpg">
+      </div>
+    </div>
+  </div>
+
+  <div class="row majka-g-box">
+    <div class="col-lg-12 p-5">
+      <blockquote class="blockquote text-center">
+        <h3 class="">Zobacz galerię zdjęć i opinię naszych klientów.</h3>
+      </blockquote>
+    </div>
   </div>
 
 @endsection

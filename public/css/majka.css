@@ -73,3 +73,10 @@ header h5{
   font-size: 12px;
   font-weight: bold;
 }
+
+.blockquote{
+  background-color: #7386c1;
+  color: white;
+  font-style: italic;
+  padding: 80px 0;
+}
