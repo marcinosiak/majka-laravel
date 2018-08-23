@@ -46,13 +46,17 @@
 
     <div class="row justify-content-center">
       <div class="col-lg-3 m-5">
-        <h4>Dalczego warto?</h4>
-        <img class="img-fluid" src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/01/2.jpg">
+        <a href="{!!url('dlaczego-warto')!!}">
+          <h4>Dalczego warto?</h4>
+          <img class="img-fluid" src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/01/2.jpg">
+        </a>
       </div>
 
       <div class="col-lg-3 m-5">
-        <h4>Oferta</h4>
-        <img class="img-fluid" src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/01/6-1.jpg">
+        <a href="{!!url('oferta')!!}">
+          <h4>Oferta</h4>
+          <img class="img-fluid" src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/01/6-1.jpg">
+        </a>
       </div>
     </div>
 

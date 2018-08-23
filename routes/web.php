@@ -20,6 +20,11 @@ Route::get('/', [
     'as' => 'layouts.index'
 ]);
 
+Route::get('/aktualnosci', [
+    'uses' => 'PagesController@aktualnosci',
+    'as' => 'layouts.posts'
+]);
+
 Route::get('/poznajmy-sie', [
     'uses' => 'PagesController@poznajmySie',
     'as' => 'layouts.page'
@@ -32,6 +37,16 @@ Route::get('/dlaczego-warto', [
 
 Route::get('/oferta', [
     'uses' => 'PagesController@oferta',
+    'as' => 'layouts.page'
+]);
+
+Route::get('/program-szkoly-rodzenia', [
+    'uses' => 'PagesController@programSzkolyRodzenia',
+    'as' => 'layouts.page'
+]);
+
+Route::get('/kontakt', [
+    'uses' => 'PagesController@kontakt',
     'as' => 'layouts.page'
 ]);
 

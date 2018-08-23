@@ -15,27 +15,40 @@ class PagesController extends Controller
     return view('layouts.index', compact('posts'));
   }
 
+  public function aktualnosci()
+  {
+    $posts = Post::all()->sortByDesc("created_at");
+    return view ('layouts.posts')->with('posts', $posts);
+  }
+
   public function poznajmySie()
   {
-    // Pobieram content z Voyager'a. Strona Poznajmy się id = 2
     $page = Page::find(2);
-   // Return view with the data
     return view ('layouts.page')->with('page', $page);
   }
 
   public function dlaczegoWarto()
   {
-    // Pobieram content z Voyager'a. Strona Poznajmy się id = 2
     $page = Page::find(3);
-   // Return view with the data
     return view ('layouts.page')->with('page', $page);
   }
 
   public function oferta()
   {
-    // Pobieram content z Voyager'a. Strona Poznajmy się id = 2
     $page = Page::find(4);
-   // Return view with the data
     return view ('layouts.page')->with('page', $page);
   }
+
+  public function programSzkolyRodzenia()
+  {
+    $page = Page::find(5);
+    return view ('layouts.page')->with('page', $page);
+  }
+
+  public function kontakt()
+  {
+    $page = Page::find(6);
+    return view ('layouts.page')->with('page', $page);
+  }
+
 }
