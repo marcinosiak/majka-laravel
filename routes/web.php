@@ -16,12 +16,22 @@
 // });
 
 Route::get('/', [
-    'uses' => 'IndexController@index',
+    'uses' => 'PagesController@index',
     'as' => 'layouts.index'
 ]);
 
-Route::get('/about', [
-    'uses' => 'IndexController@page',
+Route::get('/poznajmy-sie', [
+    'uses' => 'PagesController@poznajmySie',
+    'as' => 'layouts.page'
+]);
+
+Route::get('/dlaczego-warto', [
+    'uses' => 'PagesController@dlaczegoWarto',
+    'as' => 'layouts.page'
+]);
+
+Route::get('/oferta', [
+    'uses' => 'PagesController@oferta',
     'as' => 'layouts.page'
 ]);
 

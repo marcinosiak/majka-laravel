@@ -11,6 +11,9 @@
   {{-- http://slippry.com/settings/#elements --}}
   <ul id="slippry-slide">
     <li>
+      <a href="#slide0"><img src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2015/12/pregnant-woman.jpg"></a>
+    </li>
+    <li>
       <a href="#slide1"><img src="http://healthy-pregnancy.cmsmasters.net/wp-content/uploads/2017/04/slide1-1.jpg"></a>
     </li>
     <li>

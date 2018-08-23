@@ -80,3 +80,9 @@ header h5{
   font-style: italic;
   padding: 80px 0;
 }
+
+.content h1{
+  font-size: 28px;
+  font-weight: bold;
+  color: #3150a2;
+}
